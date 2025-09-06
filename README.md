@@ -1,3 +1,5 @@
+# CHAPTER 1
+
 # javascript-practice
 A collection of exercises, notes, and mini-projects to strengthen my understanding of core JavaScript concepts. Covers basics like variables, loops, functions, DOM manipulation, ES6+ features, and small interactive projects to apply learning in real-world scenarios.
 
@@ -50,5 +52,7 @@ eg: kotlin convert the code into java code and then convert into machine languag
 # Compile: Converting source code (high-level language) into a lower-level language, often machine code that the computer can execute.
 eg: C/C++ → compiled into machine code (.exe on Windows).
 Transpile → high-level → high-level (human-readable)
-
-
+                                                                                                    
+                                                                                                    
+# CHAPTER 2                                                                                                    
+                                                                                                    
