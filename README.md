@@ -14,3 +14,12 @@ We use console.log() to print messages or results in the console.
 console.log("Hello, JavaScript!");
 = Hello, JavaScript!
 
+# Syntax: 
+Structure of words in a sentence, Rules of the language, for programming exact syntax must be followed.
+eg: > alert ("Hello World")
+
+# Role of browser:
+Display Webpage,
+user click
+Update content
+Load files
