@@ -49,5 +49,27 @@ eg: C/C++ → compiled into machine code (.exe on Windows).
 Transpile → high-level → high-level (human-readable)
                                                                                                     
                                                                                                     
-# CHAPTER 2                                                                                                    
+# CHAPTER 2   
+
+# mathematical operations
+Arithmetic operations: are the basic mathematical operations we perform on numbers.
+
+Operation	Symbol	Example (5 and 2)	Result
+Addition	+	5 + 2	7
+Subtraction	-	5 - 2	3
+Multiplication	*	5 * 2	10
+Division	/	5 / 2	2.5
+Modulus (Remainder)	%	5 % 2	1
+Exponentiation	**	5 ** 2	25
+
+# Order of Operations (Operator Precedence)
+:When more than one operator is used in a mathematical expression, the order matters.
+This is defined by BODMAS / PEMDAS Rule:
+
+B/P → Brackets/Parentheses () [] {}
+O/E → Order / Exponentiation ^ or **
+D → Division /
+M → Multiplication *
+A → Addition +
+S → Subtraction -
                                                                                                     
