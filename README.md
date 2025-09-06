@@ -23,3 +23,10 @@ Display Webpage,
 user click
 Update content
 Load files
+
+# What is JAvaScript
+Action: Enable Interactivity.
+Updates: Alters path without reloading.
+Event: Respond to user actions.
+Data: fetches and send data to the server.
+Role: Makes any website actaionable.
