@@ -1,4 +1,4 @@
-# CHAPTER 1
+#                                                                                          CHAPTER 1
 
 # javascript-practice
 A collection of exercises, notes, and mini-projects to strengthen my understanding of core JavaScript concepts. Covers basics like variables, loops, functions, DOM manipulation, ES6+ features, and small interactive projects to apply learning in real-world scenarios.
@@ -49,7 +49,7 @@ eg: C/C++ → compiled into machine code (.exe on Windows).
 Transpile → high-level → high-level (human-readable)
                                                                                                     
                                                                                                     
-# CHAPTER 2   
+#                                                                                             CHAPTER 2   
 
 # mathematical operations
 Arithmetic operations: are the basic mathematical operations we perform on numbers.
@@ -72,4 +72,55 @@ D → Division /
 M → Multiplication *
 A → Addition +
 S → Subtraction -
+
+# Number Types in JavaScript: Integer and Float
+: In JavaScript, all numbers are treated as the same Number type.
+
+1. Integer (Whole Numbers):- A number without any decimal point.
+Example: 5, -3, 1000, 0
+
+let age = 25;
+let count = -10;
+console.log(age);   // 25
+console.log(count); // -10
+----------------------------
+
+2. Float (Decimal Numbers):- A number that has a decimal point.
+example: Example: 3.14, -0.5, 2.718
+
+let price = 19.99;
+let temperature = -4.5;
+console.log(price);        // 19.99
+console.log(temperature);  // -4.5
+------------------------------
+
+Checking if a Number is an Integer
+
+You can use Number.isInteger() to check if a value is an integer.
+console.log(Number.isInteger(5));    // true
+console.log(Number.isInteger(5.5));  // false
+--------------------------------
+
+# Rounding Floats
+
+You can round floats to whole numbers using:
+
+:Math.round() → rounds to the nearest integer
+:Math.floor() → rounds down
+:Math.ceil() → rounds up
+
+console.log(Math.round(4.7)); // 5
+console.log(Math.floor(4.7)); // 4
+console.log(Math.ceil(4.1));  // 5
+---------------------------------
+# conclusion 
+
+Summary:
+
+JavaScript has one number type, but we think of them as integers (whole numbers) and floats (decimal numbers).
+You can mix them in calculations.
+You can check if a number is an integer using Number.isInteger().
+You can round floats using Math.round(), Math.floor(), or Math.ceil().
                                                                                                     
+                                                                                                    
+
