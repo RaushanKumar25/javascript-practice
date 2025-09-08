@@ -122,10 +122,12 @@ You can mix them in calculations.
 You can check if a number is an integer using Number.isInteger().
 You can round floats using Math.round(), Math.floor(), or Math.ceil().
 
-
-#                                                                                    CHAPTER 3
-
-String: string holds the textual data anything from a single chracter to the paragraphs.
+# String: 
+:string holds the textual data anything from a single chracter to the paragraphs.
 : strings can be defined as single quotes 'hello javascript, double quotes: "hello javascript, and or backticks: `hello javascript`
+
+#Type of Operator:
+it checks the variable tells you the datatype of variable.
+: syntax= typeof.  eg: typeof 5 = 'number'
                                                                                                     
 
