@@ -121,6 +121,11 @@ JavaScript has one number type, but we think of them as integers (whole numbers)
 You can mix them in calculations.
 You can check if a number is an integer using Number.isInteger().
 You can round floats using Math.round(), Math.floor(), or Math.ceil().
-                                                                                                    
+
+
+#                                                                                    CHAPTER 3
+
+String: string holds the textual data anything from a single chracter to the paragraphs.
+: strings can be defined as single quotes 'hello javascript, double quotes: "hello javascript, and or backticks: `hello javascript`
                                                                                                     
 
