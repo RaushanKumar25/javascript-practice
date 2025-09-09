@@ -126,8 +126,17 @@ You can round floats using Math.round(), Math.floor(), or Math.ceil().
 :string holds the textual data anything from a single chracter to the paragraphs.
 : strings can be defined as single quotes 'hello javascript, double quotes: "hello javascript, and or backticks: `hello javascript`
 
-#Type of Operator:
+# Type of Operator:
 it checks the variable tells you the datatype of variable.
 : syntax= typeof.  eg: typeof 5 = 'number'
+
+# querySelector 
+:querySelector is a method that selects and returns the first element in the document that matches a specified CSS selector.
+syntax: document.querySelector("CSS selector");
+
+# querySelectorAll
+: querySelectorAll is a method that selects all elements that match a specified CSS selector and returns them as a NodeList (a list of elements).
+its like "Find all these elements on the page so I can work with each of them.”
+syntax: document.querySelectorAll("CSS selector");
                                                                                                     
 
