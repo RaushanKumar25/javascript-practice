@@ -138,5 +138,32 @@ syntax: document.querySelector("CSS selector");
 : querySelectorAll is a method that selects all elements that match a specified CSS selector and returns them as a NodeList (a list of elements).
 its like "Find all these elements on the page so I can work with each of them.”
 syntax: document.querySelectorAll("CSS selector");
+
+
+# CHAPTER 4
+
+# variable
+:A variable is like a container or label where you can store data (such as numbers, text, etc.)
+
+Why do we need variables?
+:To store values.
+:To reuse information without typing it again.
+:To make programs dynamic and interactive.
+
+How to declare a variable  by using let
+
+let name = "Roshan";
+let age = 22;
+console.log(name);
+console.log(age);  
+
+Here:
+name is a variable storing text "Roshan"
+age is a variable storing the number 22
+
+:Variable names can contain letters, digits, $, and _.
+:Cannot start with a digit.
+:Variables help you write reusable and organized code.
+
                                                                                                     
 
