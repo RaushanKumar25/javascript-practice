@@ -146,6 +146,7 @@ syntax: document.querySelectorAll("CSS selector");
 :A variable is like a container or label where you can store data (such as numbers, text, etc.)
 
 Why do we need variables?
+
 :To store values.
 :To reuse information without typing it again.
 :To make programs dynamic and interactive.
@@ -158,6 +159,7 @@ console.log(name);
 console.log(age);  
 
 Here:
+
 name is a variable storing text "Roshan"
 age is a variable storing the number 22
 
