@@ -167,5 +167,8 @@ age is a variable storing the number 22
 :Cannot start with a digit.
 :Variables help you write reusable and organized code.
 
+# Eval function
+eveal function convert the two string value into mathematical expression.
+
                                                                                                     
 
