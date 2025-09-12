@@ -170,5 +170,20 @@ age is a variable storing the number 22
 # Eval function
 eveal function convert the two string value into mathematical expression.
 
+# CHAPTER 5
+
+#Boolean 
+:A boolean is a type that can only have two values:
+✔ true
+✔ false
+A boolean is like a yes or no, on or off, right or wrong answer.
+It’s used when you want to decide something or check conditions in your program.
+
+:Why are booleans important?
+
+Control decisions — like showing or hiding things.
+Check conditions — compare values or states.
+Make your program smarter — it reacts differently based on true or false.
+
                                                                                                     
 
