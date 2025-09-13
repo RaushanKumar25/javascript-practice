@@ -2,6 +2,7 @@
     border: 1px solid rgb(132, 129, 129);
     border-radius: 5px;
     width: 200px;
+    background-color: rgb(15, 15, 15);
 }
 #display {
     margin: 10px;
