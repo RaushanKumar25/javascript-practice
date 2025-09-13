@@ -185,5 +185,29 @@ Control decisions — like showing or hiding things.
 Check conditions — compare values or states.
 Make your program smarter — it reacts differently based on true or false.
 
+# Comparison Operators
+:Comparison operators compare two values and return a boolean — either true or false
+
+Operator	Meaning	Example	Result
+==	equal to	5 == 5	true
+===	exactly equal (value and type)	5 === "5"	false
+!=	not equal	5 != 3	true
+!==	not exactly equal	5 !== "5"	true
+>	greater than	10 > 5	true
+<	less than	3 < 5	true
+>=	greater than or equal	5 >= 5	true
+<=	less than or equal	4 <= 5	true
+
+# What is === (triple equal) in JavaScript?
+: The triple equal (===) is called the strict equality operator.
+It checks:
+
+If two values are equal
+AND
+
+If they are of the same type (number, string, etc.)
+
+Only if both are true, it returns true. Otherwise, it returns false.
+
                                                                                                     
 
