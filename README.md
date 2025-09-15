@@ -209,5 +209,8 @@ If they are of the same type (number, string, etc.)
 
 Only if both are true, it returns true. Otherwise, it returns false.
 
+# Day 5
+:- Created a Cricket Game
+
                                                                                                     
 
