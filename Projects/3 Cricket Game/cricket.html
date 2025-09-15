@@ -11,22 +11,54 @@
 </head>
 <body>
     <h1>Bat Ball Stump Game</h1> 
-    <button onclick="
-    console.log('You clicked the Bat button');
-    let randomNumber = Math.random() * 3;
-    if(randomNumber > 0 randomNumber <= 1) {
-        console.log('You Win');
-    } else if(randomNumber > 1 && randomNumber <= 2) {
-        console.log('You Lose');
-    } else {
-        console.log('Match Draw');
-    }
-    
-    
-    
-    ">Bat </button>
-    <button>Bat</button> 
-    <button>Stump</button>  
-</body>
 
+    <button onclick="
+        console.log('You clicked the Bat button');
+        let randomNumber = Math.random() * 3;
+        let computerChoice;
+        
+        if(randomNumber >= 0 && randomNumber < 1) {
+            computerChoice = 'Bat';
+        } else if(randomNumber >= 1 && randomNumber < 2) {
+            computerChoice = 'Ball';
+        } else {
+            computerChoice = 'Stump';
+        }
+
+        console.log('Computer choice is ' + computerChoice);
+    ">Bat</button>
+
+    <button onclick="
+        console.log('You clicked the Ball button');
+        let randomNumber = Math.random() * 3;
+        let computerChoice;
+        
+        if(randomNumber >= 0 && randomNumber < 1) {
+            computerChoice = 'Bat';
+        } else if(randomNumber >= 1 && randomNumber < 2) {
+            computerChoice = 'Ball';
+        } else {
+            computerChoice = 'Stump';
+        }
+
+        console.log('Computer choice is ' + computerChoice);
+    ">Ball</button>
+
+    <button onclick="
+        console.log('You clicked the Stump button');
+        let randomNumber = Math.random() * 3;
+        let computerChoice;
+        
+        if(randomNumber >= 0 && randomNumber < 1) {
+            computerChoice = 'Bat';
+        } else if(randomNumber >= 1 && randomNumber < 2) {
+            computerChoice = 'Ball';
+        } else {
+            computerChoice = 'Stump';
+        }
+
+        console.log('Computer choice is ' + computerChoice);
+    ">Stump</button>
+
+</body>
 </html>
