@@ -212,7 +212,7 @@ Only if both are true, it returns true. Otherwise, it returns false.
 # Day 5
 :- Created a Cricket Game
 
-#Truthy and Falsy Value
+# Truthy and Falsy Value
 
 
                                                                                                     
