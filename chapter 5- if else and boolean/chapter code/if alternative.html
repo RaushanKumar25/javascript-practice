@@ -18,6 +18,12 @@
 
         let result = (age > 18) ? "Adult" : "Minor";  // condition ? true : false
         console.log(result);
+
+        // Guard Operator 
+        let accessAllowed = 0; 
+        let finalAccess = accessAllowed || "19";   // value || deafult value
+        console.log(accessAllowed);
+        console.log(finalAccess);
     </script>
 </body>
 </html>
