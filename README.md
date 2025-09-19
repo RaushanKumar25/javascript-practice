@@ -214,6 +214,33 @@ Only if both are true, it returns true. Otherwise, it returns false.
 
 # Truthy and Falsy Value
 
+# Falsy Value in JavaScript:
+: A value that is considered false when evaluated in a Boolean context (like inside an if condition).
+
+# Truthy Value in JavaScript:
+: A value that is considered true when evaluated in a Boolean context.
+
+# In short:
+
+Falsy = behaves like false
+Truthy = behaves like true
+
+# Falsy values (only 8 in total!)
+
+: These are the values that JavaScript treats as false in a condition:
+
+false (boolean false itself)
+1: 0 (number zero)
+2: -0 (negative zero)
+3: 0n (BigInt zero)
+4: "" (empty string: single quotes '', double quotes "", or backticks ``````)
+5: null
+6: undefined
+7: NaN (Not-a-Number)
+
+# Truthy values
+
+: Everything else that is not falsy is truthy.
 
                                                                                                     
 
