@@ -242,5 +242,13 @@ false (boolean false itself)
 
 : Everything else that is not falsy is truthy.
 
+# If Alternatives
+
+1: if...else statement (the basic one)
+-Definition: Runs one block of code if the condition is true, otherwise another block.
+2: Ternary Operator (? :)   condition ? true : false 
+-Definition: A shorthand for if...else that works in a single line.
+3: Guard Operator (OR ||) 
+- The OR guard operator (||) is used to provide a default value when the first value is falsy.
                                                                                                     
 
