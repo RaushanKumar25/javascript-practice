@@ -250,5 +250,17 @@ false (boolean false itself)
 -Definition: A shorthand for if...else that works in a single line.
 3: Guard Operator (OR ||) 
 - The OR guard operator (||) is used to provide a default value when the first value is falsy.
+
+
+# CHAPTER 6
+
+# FUNCTION
+:Function: A reusable piece of code that can take inputs, process them, and optionally return a result.
+
+-Why use functions?
+>Reusability – write once, use many times
+>Organization – makes code cleaner
+>Parameters & results – handle different inputs dynamically
+>Avoid repetition – easier to maintain
                                                                                                     
 
