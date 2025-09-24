@@ -276,8 +276,22 @@ greet("Roshan");   // Output: Hello, Roshan!
 greet("Ashish");   // Output: Hello, Ashish!
 
  Here:
-
 name → parameter (placeholder inside the function).
 "Roshan" / "Ashish" → arguments (actual values you pass when calling).
+
+
+# default values
+: when we define a value of paramenter in a function is called default value. in case of arguments are not ded=fined it will call the default value of parameters.
+eg: function greet(name = "Guest") {
+    console.log("Hello, " + name);
+}
+
+greet("Roshan"); // Output: Hello, Roshan
+greet();         // Output: Hello, Guest
+
+here,
+name = "Guest" → Here "Guest" is the default value.
+When you call greet("Roshan"), it prints "Hello, Roshan".
+When you call greet() without arguments, it automatically uses "Guest". (takes the default value)
                                                                                                     
 
