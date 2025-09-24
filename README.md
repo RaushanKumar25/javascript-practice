@@ -262,5 +262,22 @@ false (boolean false itself)
 >Organization – makes code cleaner
 >Parameters & results – handle different inputs dynamically
 >Avoid repetition – easier to maintain
+
+# What are Parameters in JavaScript?
+: Parameters are like placeholders (inputs) that you define in a function.
+# Arguments 
+: When you call the function, you pass arguments (real values) to those parameters.
+
+eg:  function greet(name) {
+  console.log("Hello, " + name + "!");
+}
+
+greet("Roshan");   // Output: Hello, Roshan!
+greet("Ashish");   // Output: Hello, Ashish!
+
+ Here:
+
+name → parameter (placeholder inside the function).
+"Roshan" / "Ashish" → arguments (actual values you pass when calling).
                                                                                                     
 
