@@ -293,5 +293,40 @@ here,
 name = "Guest" → Here "Guest" is the default value.
 When you call greet("Roshan"), it prints "Hello, Roshan".
 When you call greet() without arguments, it automatically uses "Guest". (takes the default value)
+
+# CHAPTER: 7
+
+# Object in JavaScript
+:An object is a collection of key-value pairs.
+
+:Keys (or properties) are names.
+:Values can be anything: numbers, strings, arrays, functions, or even other objects.
+
+> let person = {
+    name: "Roshan",
+    age: 20,
+    city: "Patna"
+};
+
+Here:
+>name, age, city → keys (properties)
+>"Roshan", 20, "Delhi" → values
+
+# Objects Can Hold Anything Inside
+
+: Primitive values:
+:Arrays inside objects:
+:Functions inside objects (Methods)
+:Objects inside objects
+
+eg: let obj = {
+    name: "Ashish",
+    address: {
+        city: "Pune",
+        pincode: 110001
+    }
+};
+console.log(obj.address.city); // pune
+
                                                                                                     
 
