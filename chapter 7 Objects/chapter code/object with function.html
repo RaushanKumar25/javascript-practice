@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Object with function</title>
+</head>
+<body>
+    <script>
+        let product = {
+            company: "Apple",
+            price: 876,
+            item: "Shirt",
+            displayPrice : function() {
+                console.log(`The price of the product is ${this.price}`);
+            }
+        };
+         product.displayPrice();
+    </script>
+</body>
+</html>
