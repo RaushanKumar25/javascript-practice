@@ -328,5 +328,9 @@ eg: let obj = {
 };
 console.log(obj.address.city); // pune
 
+
+# AUTOBOXING
+: Automatic conversion of premitive to object is called Autoboxing
+> Allow properties and method to be used on premitive.
                                                                                                     
 
