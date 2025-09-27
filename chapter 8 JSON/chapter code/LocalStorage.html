@@ -11,6 +11,28 @@
         localStorage.setItem("age", "21");
 
         console.log(localStorage.getItem("name"));
+
+          let product = {
+            comapny: "Apple",
+            price: 600,
+            item: "Jeans",
+            rating: {
+               stars: 4.5,
+               NoOfReviews: 1000,
+
+            },
+        };
+
+        localStorage.setItem('product', JSON.stringify(product));
+        console.log(localStorage.getItem('product'));
+
+        let product2 = JSON.parse(localStorage.getItem('product'));
+        console.log(product2);
+
+        // for remove item
+        localStorage.removeItem("price");
+        // to clear all local storage
+        localStorage.clear();
         
     </script>
 </body>
