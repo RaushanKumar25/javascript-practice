@@ -332,5 +332,22 @@ console.log(obj.address.city); // pune
 # AUTOBOXING
 : Automatic conversion of premitive to object is called Autoboxing
 > Allow properties and method to be used on premitive.
-                                                                                                    
+
+
+
+# CHAPTER 8
+
+
+# JSON
+:A lightweight data format used for storing and sharing data.
+:It looks just like a JavaScript object, but it is actually written as plain text (string).
+
+# Why do we use JSON?
+> To store data
+> To send and receive data
+> Easy to understand
+
+:Without JSON, it would be very hard for different systems to talk to each other.
+
+:JSON is a text-based format used to store and share data between programs. It looks like a JavaScript object but is written as a string. In JavaScript, we use JSON.stringify() to convert objects into JSON, and JSON.parse() to turn JSON back into objects.
 
