@@ -351,3 +351,11 @@ console.log(obj.address.city); // pune
 
 :JSON is a text-based format used to store and share data between programs. It looks like a JavaScript object but is written as a string. In JavaScript, we use JSON.stringify() to convert objects into JSON, and JSON.parse() to turn JSON back into objects.
 
+# What is Local Storage?
+
+:Local Storage is like a small storage box inside your browser (like Chrome, Edge, Firefox, etc.).
+:It allows you to save data directly on the user’s computer, and the data does not get deleted even if you close or refresh the browser.
+
+> setItem = put data in the browser’s storage.
+>getItem = take data back from the browser’s storage.
+
