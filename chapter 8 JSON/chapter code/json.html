@@ -5,25 +5,56 @@
 </head>
 <body>
     <script>
+        
         let product = {
-            comapny: "Apple",
+            company: "Apple",
             price: 600,
             item: "Jeans",
             rating: {
                stars: 4.5,
                NoOfReviews: 1000,
-
             },
         };
-        console.log(typeof product);
-        console.log(product);
-        let str = JSON.stringify(product);
-        console.log(typeof str);
-        console.log(str);
 
+        console.log(typeof product); // object
+        console.log(product);
+
+        // Converting JS object -> JSON string
+        let str = JSON.stringify(product);
+        console.log(typeof str); // string
+        console.log(str); // JSON format string
+
+        // Converting JSON string -> JS object
         let obj = JSON.parse(str);
-        console.log(typeof obj);
-        console.log(obj);
+        console.log(typeof obj); // object
+        console.log(obj); // back to JS object
+
+        
+        // -------------------------------
+        // Example: How Zomato/Swiggy uses JSON
+        // -------------------------------
+
+        let restaurant = {
+            name: "Pizza Hub",
+            location: "New Delhi",
+            rating: 4.3,
+            menu: [
+                { item: "Margherita Pizza", price: 250 },
+                { item: "Farmhouse Pizza", price: 350 },
+                { item: "Peppy Paneer", price: 300 }
+            ]
+        };
+
+        console.log("Restaurant Object:", restaurant);
+
+        // Convert restaurant object -> JSON (to send to server)
+        let jsonData = JSON.stringify(restaurant);
+        console.log("JSON Data to send:", jsonData);
+
+        // Convert JSON (received from server) -> Object
+        let receivedData = JSON.parse(jsonData);
+        console.log("Received Data:", receivedData);
+        console.log("First Menu Item:", receivedData.menu[0].item); 
     </script>
 </body>
 </html>
