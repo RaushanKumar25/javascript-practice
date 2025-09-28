@@ -5,7 +5,53 @@
 </head>
 <body>
     <script>
-        
+        let calendar = {
+            month: "October",
+            year: 2024,
+            days: [
+                { date: 1, day: "Tuesday" },
+                { date: 2, day: "Wednesday" },
+                { date: 3, day: "Thursday" },
+                { date: 4, day: "Friday" },
+                { date: 5, day: "Saturday" },
+                { date: 6, day: "Sunday" },
+                { date: 7, day: "Monday" },
+                { date: 8, day: "Tuesday" },
+                { date: 9, day: "Wednesday" },
+                { date: 10, day: "Thursday" },
+                { date: 11, day: "Friday" },
+                { date: 12, day: "Saturday" },
+                { date: 13, day: "Sunday" },
+                { date: 14, day: "Monday" },
+                { date: 15, day: "Tuesday" },
+                { date: 16, day: "Wednesday" },
+                { date: 17, day: "Thursday" },
+                { date: 18, day: "Friday" },
+                { date: 19, day: "Saturday" },
+                { date: 20, day: "Sunday" },
+                { date: 21, day: "Monday" },
+                { date: 22, day: "Tuesday" },
+                { date: 23, day: "Wednesday" },
+                { date: 24, day: "Thursday" },
+                { date: 25, day: "Friday" },
+                { date: 26, day: "Saturday" },
+                { date: 27, day: "Sunday" },
+                { date: 28, day: "Monday" },
+                { date: 29, day: "Tuesday" },
+                { date: 30, day: "Wednesday" },
+                { date: 31, day: "Thursday" }
+            ]
+        };
+
+        console.log("Calendar Object:", calendar);
+
+        // Convert calendar object -> JSON (to send to server)
+        let jsonCalendar = JSON.stringify(calendar);
+        console.log("JSON Calendar Data to send:", jsonCalendar);
+
+        // Convert JSON (received from server) -> Object
+        let receivedCalendar = JSON.parse(jsonCalendar);
+        console.log("Received")
     </script>
 </body>
 </html>
