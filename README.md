@@ -366,3 +366,6 @@ console.log(obj.address.city); // pune
 : Date is a built-in object in JavaScript.
 
 > It is used to work with dates and times (like year, month, day, hours, minutes, seconds, milliseconds).
+> Using Date, you can create, get, set, and manipulate time values.
+> 
+
