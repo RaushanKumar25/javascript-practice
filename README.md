@@ -359,3 +359,23 @@ console.log(obj.address.city); // pune
 > setItem = put data in the browser’s storage.
 >getItem = take data back from the browser’s storage.
 
+
+
+# Date
+
+: Date is a built-in object in JavaScript.
+
+> It is used to work with dates and times (like year, month, day, hours, minutes, seconds, milliseconds).
+> Using Date, you can create, get, set, and manipulate time values.
+
+Creating a Date Object
+
+You can make a date in different ways:
+
+1. Current date and time
+
+
+
+let now = new Date();
+console.log(now);
+👉 Output: Mon Sep 22 2025 18:02:30 GMT+0530 (India Standard Time)
