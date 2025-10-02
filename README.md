@@ -379,3 +379,9 @@ You can make a date in different ways:
 let now = new Date();
 console.log(now);
 👉 Output: Mon Sep 22 2025 18:02:30 GMT+0530 (India Standard Time)
+
+
+# CHAPTER 9 - ARRAY AND LOOPS
+
+# ARRAY
+:An array in JavaScript is a data structure used to store multiple values in a single variable. Each value is stored at a specific index, starting from 0. Arrays can hold elements of any data type, including numbers, strings, objects, or even other arrays.
