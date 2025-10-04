@@ -1,4 +1,4 @@
-#                                                                                          CHAPTER 1
+h#                                                                                          CHAPTER 1
 
 # javascript-practice
 A collection of exercises, notes, and mini-projects to strengthen my understanding of core JavaScript concepts. Covers basics like variables, loops, functions, DOM manipulation, ES6+ features, and small interactive projects to apply learning in real-world scenarios.
@@ -385,3 +385,23 @@ console.log(now);
 
 # ARRAY
 :An array in JavaScript is a data structure used to store multiple values in a single variable. Each value is stored at a specific index, starting from 0. Arrays can hold elements of any data type, including numbers, strings, objects, or even other arrays.
+
+
+# Syntax 
+
+let arrayName = [element1, element2, element3, ...];
+
+# Example:
+
+let fruits = ["Apple", "Banana", "Mango"];
+
+Here,
+
+fruits[0] → "Apple"
+
+fruits[1] → "Banana"
+
+fruits[2] → "Mango"
+
+
+
