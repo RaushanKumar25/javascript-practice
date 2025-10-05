@@ -404,4 +404,19 @@ fruits[1] → "Banana"
 fruits[2] → "Mango"
 
 
+# Common Array Methods
+
+Method	Description	Example
+push()	Adds an element at the end	arr.push(5)
+pop()	Removes the last element	arr.pop()
+shift()	Removes the first element	arr.shift()
+unshift()	Adds an element at the start	arr.unshift(10)
+length	Returns total number of elements	arr.length
+concat()	Combines two arrays	arr1.concat(arr2)
+slice()	Returns a portion of the array	arr.slice(1,3)
+splice()	Adds/removes elements	arr.splice(2,1)
+forEach()	Executes a function for each element	arr.forEach(item => console.log(item))
+map()	Creates a new array with modified elements	arr.map(x => x*2)
+
+
 
