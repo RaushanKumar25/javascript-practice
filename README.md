@@ -418,5 +418,17 @@ splice()	Adds/removes elements	arr.splice(2,1)
 forEach()	Executes a function for each element	arr.forEach(item => console.log(item))
 map()	Creates a new array with modified elements	arr.map(x => x*2)
 
+# Looping Through an Array
+
+let numbers = [10, 20, 30, 40];
+
+for (let i = 0; i < numbers.length; i++) {
+  console.log(numbers[i]);
+}
+
+or using modern syntax
+
+numbers.forEach(num => console.log(num));
+
 
 
