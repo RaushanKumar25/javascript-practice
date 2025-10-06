@@ -1,4 +1,4 @@
-#                                                                                          CHAPTER 1
+h#                                                                                          CHAPTER 1
 
 # javascript-practice
 A collection of exercises, notes, and mini-projects to strengthen my understanding of core JavaScript concepts. Covers basics like variables, loops, functions, DOM manipulation, ES6+ features, and small interactive projects to apply learning in real-world scenarios.
@@ -385,3 +385,54 @@ console.log(now);
 
 # ARRAY
 :An array in JavaScript is a data structure used to store multiple values in a single variable. Each value is stored at a specific index, starting from 0. Arrays can hold elements of any data type, including numbers, strings, objects, or even other arrays.
+
+
+# Syntax 
+
+let arrayName = [element1, element2, element3, ...];
+
+# Example:
+
+let fruits = ["Apple", "Banana", "Mango"];
+
+Here,
+
+fruits[0] → "Apple"
+
+fruits[1] → "Banana"
+
+fruits[2] → "Mango"
+
+
+# Common Array Methods
+
+Method	Description	Example
+push()	Adds an element at the end	arr.push(5)
+pop()	Removes the last element	arr.pop()
+shift()	Removes the first element	arr.shift()
+unshift()	Adds an element at the start	arr.unshift(10)
+length	Returns total number of elements	arr.length
+concat()	Combines two arrays	arr1.concat(arr2)
+slice()	Returns a portion of the array	arr.slice(1,3)
+splice()	Adds/removes elements	arr.splice(2,1)
+forEach()	Executes a function for each element	arr.forEach(item => console.log(item))
+map()	Creates a new array with modified elements	arr.map(x => x*2)
+
+# Looping Through an Array
+
+let numbers = [10, 20, 30, 40];
+
+for (let i = 0; i < numbers.length; i++) {
+  console.log(numbers[i]);
+}
+
+or using modern syntax
+
+numbers.forEach(num => console.log(num));
+
+# Note 
+In JavaScript, arrays can hold multiple values of different data types such as numbers, strings, objects, or even other arrays.
+This is possible because JavaScript is a dynamically typed language, which means variables and arrays do not have fixed data types.
+Moreover, arrays in JavaScript are actually special objects, allowing each index to store any kind of value.
+
+
