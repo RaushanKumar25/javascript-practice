@@ -474,4 +474,19 @@ let fruits = ["Apple", "Banana", "Mango", "Orange"];
 fruits.splice(1, 2);
 console.log(fruits); // Output: ["Apple", "Orange"]
 
+🔹 6. sort()
+:Sorts the elements of an array in place and returns the sorted array.
+eg -
+let numbers = [40, 10, 100, 30];
+numbers.sort((a, b) => a - b);
+console.log(numbers); // [10, 30, 40, 100]
+
+🔹 7. valueOf()
+:Returns the original array itself — it’s usually called automatically when JavaScript expects a primitive value.
+eg-
+let fruits = ["Apple", "Banana", "Mango"];
+let result = fruits.valueOf();
+console.log(result); // ["Apple", "Banana", "Mango"]
+
+
 
