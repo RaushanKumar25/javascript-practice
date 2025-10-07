@@ -436,3 +436,42 @@ This is possible because JavaScript is a dynamically typed language, which means
 Moreover, arrays in JavaScript are actually special objects, allowing each index to store any kind of value.
 
 
+# JavaScript Array Methods
+
+:Arrays in JavaScript come with several built-in methods that make it easy to add, remove, or manipulate elements.
+
+🔹 1. push()
+:Adds one or more elements to the end of an array and returns the new length of the array.
+eg- 
+let fruits = ["Apple", "Banana"];
+fruits.push("Mango");
+console.log(fruits); // Output: ["Apple", "Banana", "Mango"]
+
+🔹 2. pop()
+:Removes the last element from an array and returns that element.
+eg- 
+let fruits = ["Apple", "Banana", "Mango"];
+fruits.pop();
+console.log(fruits); // Output: ["Apple", "Banana"]
+
+🔹 3. toString()
+:Converts an array into a comma-separated string of its elements.
+eg- 
+let fruits = ["Apple", "Banana", "Mango"];
+console.log(fruits.toString()); // Output: "Apple,Banana,Mango"
+
+🔹 4. join()
+:Joins all elements of an array into a single string, using a specified separator.
+eg- 
+let fruits = ["Apple", "Banana", "Mango"];
+console.log(fruits.join(" - ")); // Output: "Apple - Banana - Mango"
+
+🔹 5. splice()
+Purpose:
+Used to add, remove, or replace elements in an array at specific positions.
+eg- 
+let fruits = ["Apple", "Banana", "Mango", "Orange"];
+fruits.splice(1, 2);
+console.log(fruits); // Output: ["Apple", "Orange"]
+
+
