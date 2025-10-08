@@ -489,4 +489,17 @@ let result = fruits.valueOf();
 console.log(result); // ["Apple", "Banana", "Mango"]
 
 
+# 🌀 Loops in JavaScript
+:A loop is a control structure in JavaScript that allows you to execute a block of code   multiple times based on a condition. Loops help avoid writing repetitive code manually.
+
+# Types of Loops in JavaScript
+1: while Loop
+:Used when the number of iterations is not known in advance, but depends on a condition.
+eg :
+let i = 0;
+while (i < 5) {
+  console.log("Count: " + i);
+  i++;
+}
+// the loop run as long as the condition is true
 
