@@ -504,3 +504,14 @@ while (i < 5) {
 // this is use for non-standerd conditions
 // the loop run as long as the condition is true
 
+# Do While loop
+1: Execute the block first and then check the condition.
+2: it will run atleast one condition for sure.
+3: umlike while first codition is unconditional.
+4: dont forget to write the updation part.
+eg: 
+  let num = 1;  // initialisition
+        do {
+            console.log(num);
+            num++;  // updation
+        } while (num<5);  // condition
