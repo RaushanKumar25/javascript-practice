@@ -501,5 +501,6 @@ while (i < 5) {
   console.log("Count: " + i);
   i++;
 }
+// this is use for non-standerd conditions
 // the loop run as long as the condition is true
 
