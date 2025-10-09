@@ -515,3 +515,13 @@ eg:
             console.log(num);
             num++;  // updation
         } while (num<5);  // condition
+
+#  For Loop  
+: A for loop is used to repeat a block of code a specific number of times.
+It’s best when you know exactly how many times you want the loop to run.      
+
+eg :
+  let nums = [ 6,7,4,73,0];
+        for ( let index = 0; index <= 4; index++ ) {
+            console.log(nums [index]);
+        }
