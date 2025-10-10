@@ -525,3 +525,19 @@ eg :
         for ( let index = 0; index <= 4; index++ ) {
             console.log(nums [index]);
         }
+
+# Accumulation Pattern in JavaScript?
+: The accumulation pattern is a common programming pattern where you repeatedly update a variable to collect or combine values from a list (like an array).
+
+1. Initializing an accumulator variable (like `sum = 0`)
+2. Looping through a collection (like an array)
+3. Updating the accumulator in each iteration
+
+Example:
+let array = [3, 7, 9];
+let sum = 0;
+for (let i = 0; i < array.length; i++) {
+  sum += array[i];
+}
+console.log(sum); // 19
+> Here, sum accumulates the total of all elements — that’s the accumulation pattern.
