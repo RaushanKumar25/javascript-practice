@@ -542,3 +542,30 @@ for (let i = 0; i < array.length; i++) {
 }
 console.log(sum); // 19
 > Here, sum accumulates the total of all elements — that’s the accumulation pattern.
+
+#  Break and Continue Statements in JavaScript
+
+#  1. Break Statement
+
+The `break` statement is used to **stop a loop immediately**.  
+Once `break` is executed, the control jumps out of the loop and the program continues after it.
+
+### Example:
+
+for (let i = 1; i <= 5; i++) {
+  if (i === 3) {
+    break; // loop stops when i is 3
+  }
+  console.log(i);
+}
+
+# 2. Continue Statement
+:The continue statement is used to skip the current iteration of the loop and move to the next one.
+It does not stop the loop entirely.
+
+for (let i = 1; i <= 5; i++) {
+  if (i === 3) {
+    continue; // skip printing 3
+  }
+  console.log(i);
+}
