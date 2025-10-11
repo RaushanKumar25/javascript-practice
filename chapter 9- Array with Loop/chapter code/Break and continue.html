@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Break and Continue</title>
+</head>
+<body>
+    <script>
+        // Break Statement Example
+        console.log("Break Statement Example:");
+        for (let i = 1; i <= 10; i++) {
+            if (i === 5) {
+                console.log("Breaking the loop at i =", i);
+                break; // Exit the loop when i is 5
+            }
+            console.log(i);
+        }
+
+        // Continue Statement Example
+        console.log("\nContinue Statement Example:");
+        for (let j = 1; j <= 10; j++) {
+            if (j === 5) {
+                console.log("Skipping the iteration at j =", j);
+                continue; // Skip the rest of the loop when j is 5
+            }
+            console.log(j);
+        }
+    </script>
+</body>
+</html>

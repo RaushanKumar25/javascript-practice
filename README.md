@@ -534,7 +534,8 @@ eg :
 3. Updating the accumulator in each iteration
 
 Example:
-let array = [3, 7, 9];
+let array = [3, 7, 9];                     for someone who makes even lies sound beautiful this is 
+                                              for you
 let sum = 0;
 for (let i = 0; i < array.length; i++) {
   sum += array[i];
