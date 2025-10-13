@@ -12,10 +12,17 @@ function addTodo() {
 }
 
 function displayItems() {
-    let displayElement = document.querySelector("#todoItems");
+    let containerElement = document.querySelector("#todoItems");
+
+    let newHTML = '';
     displayElement.innerText = "";
 
     for (let i = 0; i < todoList.length; i++) {
+        newHTML += `
+        <p>${todoList[i]}</p>
+        <button>Delete<\button>
+        `;
+        
         displayElement.innerText += (i + 1) + ". " + todoList[i] + "\n";
     }
 }
