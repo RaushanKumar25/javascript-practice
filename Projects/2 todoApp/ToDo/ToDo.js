@@ -1,4 +1,4 @@
-let todoList = [];
+let todoList = ['Buy Milk', 'Go to College', 'Read Book'];
 
 function addTodo() {
     let inputElement = document.querySelector("#todo-input");
@@ -19,10 +19,9 @@ function displayItems() {
 
     for (let i = 0; i < todoList.length; i++) {
         newHTML += `
-        <p>${todoList[i]}</p>
+        <span>${todoList[i]}</span>
         <button>Delete<\button>
         `;
-        
-        displayElement.innerText += (i + 1) + ". " + todoList[i] + "\n";
     }
+    containerElement.innerHTML = newHtml;
 }
