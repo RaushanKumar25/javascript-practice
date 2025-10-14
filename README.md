@@ -534,8 +534,7 @@ eg :
 3. Updating the accumulator in each iteration
 
 Example:
-let array = [3, 7, 9];                     for someone who makes even lies sound beautiful this is 
-                                              for you
+let array = [3, 7, 9];                    
 let sum = 0;
 for (let i = 0; i < array.length; i++) {
   sum += array[i];
@@ -569,3 +568,25 @@ for (let i = 1; i <= 5; i++) {
   }
   console.log(i);
 }
+
+
+# 📝 ToDo App
+
+A simple and lightweight ToDo application built using **HTML**, **CSS**, and **JavaScript**.  
+This app allows users to add and view tasks in a clean and minimal interface.
+
+## 📌 Features
+
+- Add new tasks
+- Display all tasks in a list
+- Auto-clear input after adding a task
+- Simple and responsive layout
+
+## 🛠️ Technologies Used
+
+- **HTML** – Structure of the app  
+- **CSS** – Styling and layout  
+- **JavaScript** – Functionality and interactivity
+
+
+
