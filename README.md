@@ -589,4 +589,25 @@ This app allows users to add and view tasks in a clean and minimal interface.
 - **JavaScript** – Functionality and interactivity
 
 
+# ⚡ Advanced Functions in JavaScript
+
+This repository covers advanced concepts and practical use cases of **JavaScript functions**.  
+It’s designed to help learners understand how functions work under the hood and how to use them effectively in real-world projects.
+
+## 📚 Topics Covered
+
+- Function Expressions
+- Arrow Functions
+- Callback Functions
+- Higher-Order Functions
+- Closures
+- Immediately Invoked Function Expressions (IIFE)
+- Recursion
+- Rest and Spread Parameters
+- Default Parameters
+- Function Currying
+
+
+
+
 
