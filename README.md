@@ -607,7 +607,11 @@ It’s designed to help learners understand how functions work under the hood an
 - Default Parameters
 - Function Currying
 
+# Arrow function
+:An arrow function in JavaScript is a shorter and cleaner way to write functions.
+# Key Points
+Uses the => (arrow) syntax.
 
+If the function has only one line, you don’t need curly braces or return.
 
-
-
+If there’s only one parameter, you can skip the parentheses.
