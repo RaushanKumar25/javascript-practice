@@ -10,8 +10,11 @@
         let alarm = function() {
             console.log("Good morning dear!");
         }
-        setTimeout(alarm, 3000);
-        console.log('Alarm set!')
+        // let timerId= setTimeout(alarm, 10000);
+        // console.log(`Alarm set!${timerId}`);
+        // clearTimeout(timerId);
+
+        setInterval(alarm, 1000);
     </script>
 </body>
 </html>
