@@ -615,3 +615,15 @@ Uses the => (arrow) syntax.
 If the function has only one line, you don’t need curly braces or return.
 
 If there’s only one parameter, you can skip the parentheses.
+
+# JavaScript Timing Functions
+
+This guide covers how to use `setTimeout`, `clearTimeout`, `setInterval`, and `clearInterval` in JavaScript. These functions help you schedule code to run after a certain amount of time or at regular intervals.
+
+## 1. setTimeout()
+
+`setTimeout()` runs a function **once** after a given number of milliseconds.
+
+### Syntax:
+```javascript
+setTimeout(function, delay);
