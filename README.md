@@ -627,3 +627,21 @@ This guide covers how to use `setTimeout`, `clearTimeout`, `setInterval`, and `c
 ### Syntax:
 ```javascript
 setTimeout(function, delay);
+
+
+# JavaScript Event Listeners
+
+This guide explains how to use **Event Listeners** in JavaScript to handle user interactions like clicks, key presses, mouse movements, and more.
+
+---
+
+## 1. What is an Event Listener?
+
+An **Event Listener** is a way to make your webpage respond when something happens.  
+For example:
+- When someone **clicks** a button
+- When a **key** is pressed
+- When the **mouse** moves over an element
+
+You can use `addEventListener()` to attach an event to an element.
+
