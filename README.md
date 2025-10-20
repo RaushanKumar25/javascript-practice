@@ -645,3 +645,11 @@ For example:
 
 You can use `addEventListener()` to attach an event to an element.
 
+# For each loop 
+The forEach loop in JavaScript is used to run a function once for every element in an array. It doesn’t return anything and can’t be stopped with break or return.
+
+Syntax:
+
+array.forEach(function(element, index, array) {
+  // code to run
+});
