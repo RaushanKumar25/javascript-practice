@@ -653,3 +653,9 @@ Syntax:
 array.forEach(function(element, index, array) {
   // code to run
 });
+
+# most useful array methods in JavaScript
+1. map()
+
+The map() method creates a new array by applying a function to every element of the original array.
+It does not change the original array.
