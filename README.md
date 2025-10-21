@@ -668,3 +668,9 @@ It’s used to filter out unwanted values.
 # 3. reduce()
 
 :The reduce() method runs a function on each element of the array to reduce it to a single value (like a sum or total).
+
+
+In short:
+-map() → transforms data
+-filter() → filters data
+-reduce() → combines data into one value.
