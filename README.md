@@ -659,3 +659,8 @@ array.forEach(function(element, index, array) {
 
 The map() method creates a new array by applying a function to every element of the original array.
 It does not change the original array.
+
+# 2. filter()
+
+The filter() method creates a new array containing only the elements that pass a given condition.
+It’s used to filter out unwanted values.
